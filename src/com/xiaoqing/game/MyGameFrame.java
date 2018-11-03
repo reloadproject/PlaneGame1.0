@@ -1,6 +1,6 @@
 /*
  * 
- * Create by_xiaoqing on 2018-04-05
+ * Create by pengj on 2018-11-03
  * 
  */
 package com.xiaoqing.game;
@@ -17,12 +17,10 @@ import java.awt.event.WindowEvent;
 
 
 /**
- * 
  * 游戏主窗口
  * 游戏开始前，关闭输入法
  * w前，s后，a左，d右+shift（可以加速）
  * 
- *
  */
 public class MyGameFrame extends Frame {
 	private Image plane_img;//飞机图片
@@ -223,6 +221,15 @@ public class MyGameFrame extends Frame {
 		g.drawString("得分为："+score, 20, 50);
 		g.setColor(c);
 	}
+	/**
+	 * 主类
+	 * 功能描述：使用 ASWD 来控制 <br>
+	 * 方法名：main<br>
+	 * @param args</p>
+	 * 返回类型：void<br>
+	 * 创建日期：2018年11月3日 下午4:46:44<br>  
+	 * 创建者：Admin<br>
+	 */
 	public static void main(String[] args) {
 		MyGameFrame f=new MyGameFrame();
 		f.load();
