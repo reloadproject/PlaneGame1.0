@@ -109,7 +109,6 @@ public class Plane extends GameObject implements Runnable{
 		/*
 		 * 寻找一个子弹，再发射
 		 */
-		
 		if(live&&(Math.random()<0.5)){
 			 for(int i=0;i<bullets.length;i++){
 					if(!bullets[i].isLive()){

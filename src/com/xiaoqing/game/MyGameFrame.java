@@ -105,7 +105,7 @@ public class MyGameFrame extends Frame {
 			while(true){
 				repaint();
 				try{
-					Thread.sleep(40);//1秒画25次
+					Thread.sleep(20);//1秒画25次
 				}catch(InterruptedException e){
 					e.printStackTrace();
 				}
